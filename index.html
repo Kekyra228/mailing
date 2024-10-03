@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Mailing</title>
+    <style>
+
+        body, table, td {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .email-container {
+            width: 100%;
+            height: 100vh;
+            background-color: #EEF3FB;
+             padding: 40px; 
+        }
+
+        .email-content {
+            max-width: 640px;
+            width: 100%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 40px 70px 50px 70px; 
+        }
+
+        h2, h3 {
+            color: #28355C;
+            font-size: 22px;
+            text-align: left;
+        }
+
+        p{
+          font-size: 14px;  
+          color: #28355C;
+          line-height: 22px;
+        }
+        a {
+            font-size: 12px;
+            color: #2855AF;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        button {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #2855AF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 700;
+            border: none; 
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+        .email-content {
+            padding: 30px;
+            max-width: 100%; 
+        }
+        .button {
+            padding: 15px;
+            font-size: 12px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <table class="email-container" role="presentation">
+        <tr>
+            <td>
+            
+                <table role="presentation" width="100%" style="padding-bottom: 31px;">
+                    <tr>
+                        <td align="center">
+                            <table role="presentation" width="640">
+                                <tr>
+                                    <td style="text-align: left;">
+                                        <img src="https://i.postimg.cc/fTMxNbz7/logo-1.png" alt="МойСклад" style="max-width: 156px; height: auto;">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+              
+                <table class="email-content block" role="presentation" width="100%">
+                    <!-- Блок 1: Заголовок и текст -->
+                    <tr>
+                        <td style="background-color: #ffffff;">
+                            
+                            <h2>
+                                Как управлять онлайн-заказами из всех каналов в одном окне?
+                            </h2>
+                            <table role="presentation" width="100%" style="margin-bottom: 30px;">
+                                <tr>
+                                    <td style="text-align: center;">
+                                        <img src="https://i.postimg.cc/131BdWpY/im1.png" alt="Онлайн-заказы" style="max-width: 100%; height: auto; border: 0;">
+                                    </td>
+                                </tr>
+                            </table>
+                            <p>
+                                МойСклад — идеальная система учета для онлайн-торговли. В сервисе есть готовые интеграции с платформами для магазинов, маркетплейсов и соцсетей. Заказы передаются в МойСклад, а актуальные остатки — из сервиса на витрины. Управляйте всеми каналами продаж как единым бизнесом!
+                            </p>
+                            <table role="presentation" width="100%">
+                                <tr>
+                                    <td style="text-align: center; padding-top: 20px;">
+                                        <button style="padding: 14px 20px;">
+                                            Подключить интеграции
+                                    </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                    <!-- Блок 2: Стоимость подключения -->
+                     <table class="email-content block" role="presentation" width="100%" style="margin-top: 30px;">
+                        <tr>
+                            <td  align="center">
+                                <h2 style="margin-bottom: 25px;">
+                                    Сколько стоит подключить <br>интернет-магазин?
+                                </h2>
+                                <table role="presentation" width="100%" style="margin-bottom: 20px;">
+                                    <tr>
+                                        <td style="width: 60px; text-align: center;">
+                                            <img src="https://i.postimg.cc/yNFVLHWw/icon-1.png" alt="Стоимость" style="max-width: 100%; height: auto; border: 0;">
+                                        </td>
+                                        <!-- Текст -->
+                                        <td style="padding-left: 20px; text-align: left; vertical-align: middle;">
+                                            <p>
+                                                Интеграция с интернет-магазином доступна на тарифах Базовый, Профессиональный и <br>Корпоративный — от <strong>500 рублей в месяц</strong>.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>   
+                                <table role="presentation" width="100%">
+                                    <tr>
+                                        <td style="text-align: center; padding-top: 10px;">
+                                            <button>
+                                                Подключить
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                     </table>
+                 
+
+                    <!-- Блок 3: Дополнительный текст и поддержка -->
+                     <table class="email-content block" role="presentation" width="100%" style="margin-top: 30px; background-color: #CBDEFF;  padding: 30px 49px 30px 49px;">
+                        <tr>
+                            <td style="text-align: center;">
+
+                                <h3 style="font-size: 14px; text-align: center;">
+                                    Мы с радостью поможем вам освоить сервис
+                                </h3>
+                    
+                                <p style="margin-bottom: 30px; text-align: center;">
+                                    Обучающие видео и наглядные инструкции вы найдете в центре <br>поддержки. Если у вас останутся вопросы — пишите в чат. Чтобы помочь, сотрудники могут спросить название вашего аккаунта: <strong>$company$</strong>.
+                                </p>
+                                <a href="#" class="button" style="background-color: #B4CDFF; padding: 12px 20px 16px 20px; color: #2855AF;text-align: center;">
+                                    У меня есть вопрос
+                                </a>
+                            </td>
+                        </tr>
+                     </table>
+              
+                     <!-- Нижний блок -->
+                    <table role="presentation" width="100%" style="margin-top: 30px;">
+                        <tr>
+                            <td align="center">
+                                <h3 style=" font-size: 14px; text-align:center;">
+                                    Желаем успешной работы!
+                                </h3>
+                                <p style="margin-bottom: 50px;">
+                                    Команда сервиса МойСклад
+                                </p>
+
+                                <p style="margin-bottom: 18px;">
+                                    <a href="#" style="margin-right: 20px;">Возможности</a>
+                                    <a href="#" style=" margin-right: 20px;">Документация</a>
+                                    <a href="#" style="text-decoration: none; ">Поддержка</a>
+                                </p>
+                                <table role="presentation">
+                                    <tr>
+                                        <td style="padding: 0 10px;">
+                                           <img src="https://i.postimg.cc/nzVmjbCM/icon-facebook.png" alt="facebook">
+                                        </td>
+                                        <td style="padding: 0 10px;">
+                                          <img src="https://i.postimg.cc/QMG1nmpj/icon-vk.png" alt="vk">
+                                        </td>
+                                        <td style="padding: 0 10px;">
+                                            <img src="https://i.postimg.cc/5t4N0FJw/icon-twitter.png" alt="twitter">
+                                            
+                                        </td>
+                                        <td style="padding: 0 10px;">
+                                          <img src="https://i.postimg.cc/DZtS8yBn/icon-youtube.png" alt="youtube">
+                                            
+                                        </td>
+                                        <td style="padding: 0 10px;">
+                                            <img src="https://i.postimg.cc/pXBdtZb2/icon-instagram.png" alt="insta">
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table role="presentation" width="100%" style="margin-top: 34px;">
+                                    <tr>
+                                        <td align="center">
+                                            <table role="presentation" width="640">
+                                                <tr>
+                                                    <td style="padding: 0 20px;"> 
+                                                        <hr style="border: 0; border-top: 1px solid #D7DFF0; width: 100%; margin-bottom: 17px;">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="text-align: center;">
+                                                        <p style="font-size: 12px; text-align: center;">
+                                                            Вы получили это письмо, так как ранее регистрировались в сервисе МойСклад.
+                                                            <a href="#" style="color: #28355C; font-weight:400; text-decoration-line: underline;">Отписаться от рассылки</a>
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
